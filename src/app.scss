@@ -1,0 +1,49 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.header {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.menu {
+    text-align: center;
+    background: purple;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    p {
+        color: #FFF;
+        margin-bottom: 0;
+    }
+    p:hover {
+        cursor: pointer;
+        opacity: .7;
+    }
+}
+
+.home-content {
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+        text-align: center;
+    }
+    th, td {
+        font-size: 15px;
+    }
+    label {
+        color: green;
+        font-size: 15px;
+    }
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 0;
+    background: #333;
+    color: white;
+    p {
+        margin-bottom: 0;
+    }
+}
+
